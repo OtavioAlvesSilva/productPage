@@ -6,7 +6,7 @@
 
 ## 🌐 Live Demo
 
-🔗 **[Click here to visit Axtro](https://otavioalvessilva.github.io/Axtro/)** 
+🔗 **[Click here to visit Axtro](https://otavioalvessilva.github.io/productPage/)** 
 
 ---
 
