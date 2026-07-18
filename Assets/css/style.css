@@ -986,6 +986,7 @@ body.menu_mobile_aberto {
 .formulario form input {
     padding: 0.6rem;
     font-size: 16px;
+    color: var(--color);
     border-radius: 4px;
     border: 1px solid var(--color-espec);
     margin-top: var(--margin-footer);
