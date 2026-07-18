@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Axtro</title>
+    <link rel="stylesheet" type="text/css" href="Assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="#hero"><p class="marca">AXTRO</p></a>
+            </div>
+
+            <button class="botao_hamburguer" id="botaoHamburguer" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menuMobile">
+                <span class="hamburguer-line" aria-hidden="true"></span>
+                <span class="hamburguer-line" aria-hidden="true"></span>
+                <span class="hamburguer-line" aria-hidden="true"></span>
+            </button>
+            <nav aria-label="Navegação principal">
+                <div class="menu">
+                    <ul>
+                        <li><a href="#hero">Início</a></li>
+                        <li><a href="#especificaçoes">Recursos</a></li>
+                        <li><a href="#complemento">Especificações</a></li>
+                        <li><a href="#cores">Cores</a></li>
+                        <li><a href="#footer">Redes sociais</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="botao_cadastro">
+                <a href="#">Cadastre-se / Entrar</a>
+            </div>
+        </div>
+    </header>
+
+    <aside class="menu_mobile" id="menuMobile" aria-hidden="true">
+        <div class="topo_menu_mobile">
+            <p class="marca_mobile">AXTRO</p>
+            <button class="fechar_menu_mobile" id="fecharMenuMobile" type="button" aria-label="Fechar menu">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+        </div>
+
+        <ul class="lista_menu_mobile">
+            <li>
+                <a href="#hero" class="link_menu_mobile">
+                    <span class="icone_menu_mobile" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                            <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                        </svg>
+                    </span>
+                    Início
+                </a>
+            </li>
+            <li>
+                <a href="#especificaçoes" class="link_menu_mobile">
+                    <span class="icone_menu_mobile" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M3 18v-6a9 9 0 0 1 18 0v6"></path>
+                            <path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"></path>
+                        </svg>
+                    </span>
+                    Recursos
+                </a>
+            </li>
+            <li>
+                <a href="#complemento" class="link_menu_mobile">
+                    <span class="icone_menu_mobile" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="4" y1="21" x2="4" y2="14"></line>
+                            <line x1="4" y1="10" x2="4" y2="3"></line>
+                            <line x1="12" y1="21" x2="12" y2="12"></line>
+                            <line x1="12" y1="8" x2="12" y2="3"></line>
+                            <line x1="20" y1="21" x2="20" y2="16"></line>
+                            <line x1="20" y1="12" x2="20" y2="3"></line>
+                            <line x1="1" y1="14" x2="7" y2="14"></line>
+                            <line x1="9" y1="8" x2="15" y2="8"></line>
+                            <line x1="17" y1="16" x2="23" y2="16"></line>
+                        </svg>
+                    </span>
+                    Especificações
+                </a>
+            </li>
+            <li>
+                <a href="#cores" class="link_menu_mobile">
+                    <span class="icone_menu_mobile" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path>
+                        </svg>
+                    </span>
+                    Cores
+                </a>
+            </li>
+            <li>
+                <a href="#footer" class="link_menu_mobile">
+                    <span class="icone_menu_mobile" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="18" cy="5" r="3"></circle>
+                            <circle cx="6" cy="12" r="3"></circle>
+                            <circle cx="18" cy="19" r="3"></circle>
+                            <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
+                            <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
+                        </svg>
+                    </span>
+                    Redes sociais
+                </a>
+            </li>
+        </ul>
+
+        <a href="#" class="botao_cadastro_mobile">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                <circle cx="12" cy="7" r="4"></circle>
+            </svg>
+            Cadastre-se / Entrar
+            <svg class="icone_seta_direita" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+        </a>
+    </aside>
+
+    <div class="imagem_nav_hero">
+        <section id="hero">
+            <div class="container hero">
+                <div class="novo_hero">
+                    <p>novo</p>
+                </div>
+                <div class="tittle_hero">
+                    <h1>m3 plus</h1>
+                </div>
+                <div class="subtittle_hero">
+                    <h2>O silêncio nunca <br/> soou tão bem.</h2>
+                </div>
+                <div class="botoes_hero">
+                    <a href="#" class="botao_hero_comprar">Comprar agora</a>
+                    <a href="#especificaçoes" class="botao_hero_saibaMais">Saiba mais</a>
+                </div>
+            </div>
+            <div class="container hero_garantia">
+                <div class="garantia">
+                    <img src="Assets/images/hero/garantia.png" alt=""/> <p>Garantia de 2 anos</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section id="especificaçoes">
+        <div class="container especificaçoes">
+            <div class="collum_desktop_espec">
+                <div class="background_collum_desktop_espec">
+                <img src="Assets/images/espec/phone.png" alt="Fone de ouvido Axtro M3 Plus visto de perto"/>
+                </div>
+            </div>
+            <div class="collum_mobile_espec">
+                <div class="tittle_small_espec">
+                    <p>tecnologia avançada</p>
+                </div>
+                <div class="tittle_big_espec">
+                    <h2>Som de estúdio</h2>
+                </div>
+                <div class="text_espec">
+                    <p>Desenvolvido para máxima fidelidade sonora com cancelamento de ruído inteligente que se adapta ao seu ambiente.</p>
+                </div>
+                <div class="group_espec">
+                    <div class="box_espec">
+                        <div class="image_box_espec"> <img src="Assets/images/espec/ruido.png" alt=""/> </div>
+                        <div class="text_box_espec">
+                            <h3>Cancelamento inteligente</h3>
+                            <p>Bloqueia ruídos externos para você se concentrar no que importa.</p>
+                        </div>
+                    </div>
+                    <div class="box_espec">
+                        <div class="image_box_espec"> <img src="Assets/images/espec/music.png" alt=""/> </div>
+                        <div class="text_box_espec">
+                            <h3>Áudio Hi-Fi</h3>
+                            <p>Drivers de alta precisão que entregam cada detalhe da sua música.</p>
+                        </div>
+                    </div>
+                    <div class="box_espec">
+                        <div class="image_box_espec"> <img src="Assets/images/espec/folha.png" alt=""/> </div>
+                        <div class="text_box_espec">
+                            <h3>Conforto premium</h3>
+                            <p>Design leve e almofadas macias para longas horas de uso.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="complemento">
+        <div class="container complemento">
+            <div class="tittle_complemento">
+                <h2>Tudo que você precisa</h2>
+            </div>
+            <div class="group_complemento">
+                <div class="box_complemento">
+                    <div class="image_box_complemento"> <img src="Assets/images/complemento/headset.png" alt=""/> </div>
+                    <div class="tittle_box_complemento">
+                        <h3>Áudio Hi-Fi</h3>
+                    </div>
+                    <div class="subtittle_box_complemento">
+                        <p>Qualidade de som excepcional</p>
+                    </div>
+                </div>
+                <div class="box_complemento">
+                    <div class="image_box_complemento"> <img src="Assets/images/complemento/bateria.png" alt=""/>  </div>
+                    <div class="tittle_box_complemento">
+                        <h3>48 horas</h3>
+                    </div>
+                    <div class="subtittle_box_complemento">
+                        <p>Bateria de longa duração</p>
+                    </div>
+                </div>
+                <div class="box_complemento">
+                    <div class="image_box_complemento"> <img src="Assets/images/complemento/gota.png" alt=""/>  </div>
+                    <div class="tittle_box_complemento">
+                        <h3>IPX7</h3>
+                    </div>
+                    <div class="subtittle_box_complemento">
+                        <p>Resistente à água e suor</p>
+                    </div>
+                </div>
+                <div class="box_complemento">
+                    <div class="image_box_complemento"> <img src="Assets/images/complemento/bluetooth.png" alt=""/>  </div>
+                    <div class="tittle_box_complemento">
+                        <h3>Bluetooth 5.3</h3>
+                    </div>
+                    <div class="subtittle_box_complemento">
+                        <p>Conexão rápida e estável</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="impressionar">
+        <div class="container impressionar">
+            <div class="tittle_impressionar">
+                <h2> Criado para impressionar. </h2>
+            </div>
+            <div class="subtittle_impressionar">
+                <p> Materiais premium, design minimalista e tecnologia que se sente em cada detalhe. </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="cores">
+        <div class="container cores">
+            <div class="tittle_cores">
+                <h2> Cores disponíveis </h2>
+            </div>
+            <div class="group_cores">
+                <div class="box_cores">
+                    <div class="image_cores">
+                        <img src="Assets/images/cores/tipos de fone/preto.png" alt="Fone de ouvido Axtro na cor preta"/>
+                    </div>
+                    <div class="tipo_cores">
+                        <div class="cor_cores preto"></div>
+                        <p> Preto </p>
+                    </div>
+                </div>
+                <div class="box_cores">
+                    <div class="image_cores">
+                        <img src="Assets/images/cores/tipos de fone/branco.png" alt="Fone de ouvido Axtro na cor branca"/>
+                    </div>
+                    <div class="tipo_cores">
+                        <div class="cor_cores branco"></div>
+                        <p> Branco </p>
+                    </div>
+                </div>
+                <div class="box_cores">
+                    <div class="image_cores">
+                        <img src="Assets/images/cores/tipos de fone/verde.png" alt="Fone de ouvido Axtro na cor verde"/>
+                    </div>
+                    <div class="tipo_cores">
+                        <div class="cor_cores verde"></div>
+                        <p> Verde </p>
+                    </div>
+                </div>
+                <div class="box_cores">
+                    <div class="image_cores">
+                        <img src="Assets/images/cores/tipos de fone/azul.png" alt="Fone de ouvido Axtro na cor azul"/>
+                    </div>
+                    <div class="tipo_cores">
+                        <div class="cor_cores azul"></div>
+                        <p> Azul </p>
+                    </div>
+                </div>
+                <div class="box_cores">
+                    <div class="image_cores">
+                        <img src="Assets/images/cores/tipos de fone/roxo.png" alt="Fone de ouvido Axtro na cor roxa"/>
+                    </div>
+                    <div class="tipo_cores">
+                        <div class="cor_cores roxo"></div>
+                        <p> Roxo </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="container footer">
+            <div class="empresa_footer">
+                <div class="logo_footer">
+                    <p class="marca_footer">Axtro</p>
+                </div>
+                <div class="subtittle_footer">
+                    <p>Tecnologia avançada para uma esperiência sonora imcomparável.</p>
+                </div>
+                <div class="redes_footer">
+                    <div class="logo_redes_sociais">
+                        <a href="#"> <img src="Assets/images/footer/logoInsta.png" alt="Instagram"/> </a>
+                    </div>
+                    <div class="logo_redes_sociais">
+                        <a href="#"> <img src="Assets/images/footer/logoTiktok.png" alt="TikTok"/> </a>
+                    </div>
+                    <div class="logo_redes_sociais">
+                        <a href="#"> <img src="Assets/images/footer/logoTwitter.png" alt="Twitter"/> </a>
+                    </div>
+                    <div class="logo_redes_sociais">
+                        <a href="#"> <img src="Assets/images/footer/logoYoutube.png" alt="YouTube"/> </a>
+                    </div>
+                </div>
+            </div>
+            <div class="suporte_footer">
+                <div class="tittle_suporte_footer">
+                    <h2> Suporte </h2>
+                </div>
+                <div class="subtittle_suporte_footer">
+                    <span class="margin_ajuste"><a href="#">Central de ajuda</a></span>
+                    <a href="#">Garantia</a>
+                    <a href="#">Trocas e devoluções</a>
+                    <a href="#">Contato</a>
+                </div>
+            </div>
+            <div class="newsletter">
+                <div class="tittle_newsletter">
+                    <h2>Newsletter</h2>
+                </div>
+                <div class="subtittle_newsletter">
+                    <p>Receba novidades e ofertas exclusivas.</p>
+                </div>
+                <div class="formulario">
+                    <form action="" method="" class="form-email">
+                        <label for="email-newsletter" class="sr-only">Seu e-mail</label>
+                        <input type="email" id="email-newsletter" name="email" placeholder="Digite seu e-mail" required>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div class="subtittle_email_newsletter">
+                    <p>Ao se inscrever, você concorda com nossa <a href="#">Política de Privacidade</a>.</p>
+                </div>
+            </div>
+        </div>
+        <div class="direitos_autorais">
+            <div class="container autoria">
+                <div class="desenvolvedor">
+                <p> Desenvolvido por <a href="https://github.com/OtavioAlvesSilva">Otavio Alves</a> © 2026 </p>
+                </div>
+                <div class="autoria_empresa">
+                    <p> <a href="#">Termos de uso</a></p>
+                    <p> <a href="#">Política de privacidade </a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="Assets/javaScript/main.js"></script>
+</body>
+</html>
