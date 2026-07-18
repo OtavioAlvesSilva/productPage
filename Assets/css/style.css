@@ -59,7 +59,7 @@
 
 header {
     display: flex;
-    min-height: 60px;
+    min-height: 70px;
     position: fixed;
     top: 0;
     left: 0;
@@ -347,10 +347,10 @@ body.menu_mobile_aberto {
         display: flex;
     }
     header {
-        min-height: 60px;
+        min-height: 70px;
     }
     header .logo .marca {
-        font-size: 24px;
+        font-size: 28px;
     }
     header .container {
         padding: 0 16px;
